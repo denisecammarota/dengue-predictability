@@ -1,0 +1,6 @@
+#all html and pdf files (related to markdowns)
+data
+*.dbc
+*.Rhistory
+*.jpeg
+*.csv
