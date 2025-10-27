@@ -174,6 +174,12 @@ ggplot(map_br, aes(fill = dur_time)) + geom_sf() + theme_map() +
     guide = "colorbar"
   )
 
+hist(df_summary$start_time)
+hist(df_summary$start_time_real)
+hist(df_summary$dur_time)
+
+write.csv(df_summary, 'mem_municipalities.csv')
+
 
 
 
