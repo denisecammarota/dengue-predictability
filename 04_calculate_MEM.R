@@ -738,7 +738,7 @@ ggplot(df_plot, aes(x = Var2, y = Var1, fill = value)) +
   ylab('Lags') +
   labs(fill = 'Accuracy  (s)')
 
-### Sensitivity ##############################################
+### Recall ##############################################
 
 ## Regular Lambda
 
@@ -806,7 +806,7 @@ ggplot(df_plot, aes(x = Var2, y = Var1, fill = value)) +
     mid = "#FFFFBF",      # light yellow at midpoint
     high = "#A50026",     # dark red for high
     midpoint = 0.5,         # set your desired middle point
-    name = "Sensitivity",
+    name = "Recall",
     guide = "colorbar"
   ) +
   theme_bw() +
